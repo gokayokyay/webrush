@@ -1,0 +1,28 @@
+{
+  "name": "webrush",
+  "version": "0.0.1",
+  "description": "Express.js but faster",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gokayokyay/webrush.git"
+  },
+  "keywords": [
+    "express",
+    "webrush",
+    "framework",
+    "web",
+    "http",
+    "websocket",
+    "api"
+  ],
+  "author": "Gokay Okyay",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gokayokyay/webrush/issues"
+  },
+  "homepage": "https://github.com/gokayokyay/webrush#readme"
+}
