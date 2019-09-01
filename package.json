@@ -1,12 +1,11 @@
 {
   "name": "webrush",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Express.js but faster",
-  "main": "dist/main.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "mocha --timeout 10000 --exit",
-    "dev": "nodemon lib/index.js",
-    "build": "rm -rf dist && webpack --mode production ./lib/index.js --module-bind 'node=node-loader'"
+    "dev": "nodemon lib/index.js"
   },
   "repository": {
     "type": "git",
@@ -38,13 +37,10 @@
     "eslint-plugin-react": "^7.14.3",
     "eslint-plugin-react-hooks": "^1.7.0",
     "mocha": "^6.2.0",
-    "node-loader": "^0.6.0",
     "nodemon": "^1.19.1",
     "prettier": "^1.18.2",
     "should": "^13.2.3",
-    "supertest": "^4.0.2",
-    "webpack": "^4.39.3",
-    "webpack-cli": "^3.3.7"
+    "supertest": "^4.0.2"
   },
   "dependencies": {
     "uWebSockets.js": "github:uNetworking/uWebSockets.js#v15.11.0"
