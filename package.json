@@ -1,10 +1,10 @@
 {
   "name": "webrush",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Express.js but faster",
   "main": "dist/main.js",
   "scripts": {
-    "test": "mocha --timeout 10000",
+    "test": "mocha --timeout 10000 --exit",
     "dev": "nodemon lib/index.js",
     "build": "rm -rf dist && webpack --mode production ./lib/index.js --module-bind 'node=node-loader'"
   },
