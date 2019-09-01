@@ -1,0 +1,33 @@
+# pipeline:
+#   build:
+#     image: node:latest
+#     commands: 
+#       - npm install
+#       - npm test
+#       - npm build
+#   npm:
+#     image: plugins/npm
+#     username:
+
+kind: pipeline
+name: default
+
+steps:
+  - name: test
+    image: node:latest
+    commands:
+      - npm install
+      - npm test
+  - name: build
+    image: node:latest
+    commands:
+      - npm install
+      - npm test
+      - npm run build
+  - name: npm
+    image: plugins/npm
+    settings:
+      username: gokayokyay
+      password: 
+        from_secret: npm_password
+      email: gokayokyay@hotmail.com
