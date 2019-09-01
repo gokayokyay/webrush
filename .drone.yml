@@ -18,12 +18,6 @@ steps:
     commands:
       - npm install
       - npm test
-  - name: build
-    image: node:latest
-    commands:
-      - npm install
-      - npm test
-      - npm run build
   - name: npm
     image: plugins/npm
     settings:
