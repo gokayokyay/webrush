@@ -2,7 +2,7 @@
 	Webrush
 </h1>
 
-[![Build Status](https://cloud.drone.io/api/badges/gokayokyay/webrush/status.svg)](https://cloud.drone.io/gokayokyay/webrush)
+[![Build Status](https://cloud.drone.io/api/badges/gokayokyay/webrush/status.svg)](https://cloud.drone.io/gokayokyay/webrush)[![npm version](https://badge.fury.io/js/webrush.svg)](https://badge.fury.io/js/webrush)![NPM](https://img.shields.io/npm/l/webrush)
 ###### Express.js but faster.
 
 It is a package inspired by [nanoexpress](https://github.com/dalisoft/nanoexpress "nanoexpress"). It is powered by [uWebsockets.js](https://github.com/uNetworking/uWebSockets.js "uWebsockets.js").
