@@ -2,7 +2,7 @@
   "name": "webrush",
   "version": "0.0.1",
   "description": "Express.js but faster",
-  "main": "dist/index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "mocha --timeout 10000",
     "dev": "nodemon lib/index.js"
