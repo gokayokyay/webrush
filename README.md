@@ -20,6 +20,7 @@ Was trying to use nanoexpress in a personal project then it went down for some r
 - put route
 - listen function
 - res.send, res.json, res.redirect
+- webrush.Router, see [Examples](/examples)
 
 #### Example
 ```javascript
@@ -38,3 +39,6 @@ app.listen(3000, (success) => {
   }
 });
 ```
+There are more examples located in [Examples](/examples) directory.
+
+See [Changelog](/CHANGELOG.md).
